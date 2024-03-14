@@ -1,0 +1,141 @@
+*{
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navbar{  
+    margin: 0 auto;
+    width: 1200px;
+}
+    
+.navimg{
+    width: 80px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+}   
+.navimg h3{
+    padding-top: 30px;
+}
+.navimg img{
+    width: 100%;
+}
+.navimg h3{
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+nav ul{
+    display: flex;
+    gap:60px
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+nav ul li{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(32, 24, 24);
+    text-shadow: -1px 0px 9px rgba(253, 252, 252, 0.73);
+    cursor: pointer;
+    transition: 1s;
+}
+nav ul li:hover{
+    color: rgb(255, 0, 0);
+}
+.navikon{
+    font-size: 20px;
+    width: 155px;
+    height: 50px;
+    display: flex;
+    transition: 1s;
+  border:2px solid beige
+  cursor: pointer;
+  background-color: gold;
+  padding-top:15px
+}
+.navikon:hover{
+    background-color: rgb(227, 8, 8);
+    color: rgb(68, 66, 64);
+}
+.hard{
+    background-image: url(h1_hero1.png.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+ 
+    height: 600px;
+    padding-top: 20px;
+    width: 100%;
+}
+button{
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+   font-size: 20px
+}
+button:hover{
+    background-color: blueviolet;
+}
+.car{
+ 
+
+    ;}
+    .car img{
+        height: 300px;
+      position:relative;
+        animation-name: example;
+     animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-fill-mode: forwards;
+     
+    }
+    @keyframes example {
+      
+        0% { right: 0px;}
+        25%{ right: 200px;}
+        
+        
+    }
+
+    .yazi{
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero{
+     padding-top: 50px;
+        display: flex;
+       justify-content: center;
+        gap: 20px;
+
+    }
+    .retro{
+        filter: grayscale(50%);
+        transition: transform 0.3s ease;
+      
+    }
+    .retro:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 20px 5px rgba(255,255,255,0.7);}
+.retro img{
+    width: 300px;
+        height: 200px;}
+    .retro h5{
+        font-size: 20px;
+    }
+
+    
